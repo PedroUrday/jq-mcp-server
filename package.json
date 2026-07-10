@@ -1,0 +1,14 @@
+{
+    "name": "jq-mcp-server",
+    "version": "1.0.0",
+    "description": "An MCP (Model Context Protocol) server for AI models that allows executing jq expressions against JSON files",
+    "type": "module",
+    "keywords": [],
+    "author": "Pedro Urday",
+    "license": "MIT",
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.29.0",
+        "node-jq": "^6.3.1",
+        "zod": "^4.4.3"
+    }
+}
